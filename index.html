@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <title>Trippr</title>
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
+
+  </head>
+  <body>
+    <!-- Navbar -->
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Trippr</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Testimonials</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Download</a>
+              </li>
+            </ul>
+            <div class="d-flex">
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Subscribe Now
+              </button>
+            </div>
+        </div>
+      </nav>
+      <h1>Plan.<span class="highlight">BackPack</span>.Travel.<span class="highlight">Repeat</span></h1>
+    </header>
+
+    <!-- Features section -->
+    <section class="container" id="features">
+      <h2>Features</h2>
+      <article class="rightImage row">
+        <div class="col-sm-6 col-xs-12">
+          <h3>Create and Customise</h3>
+          <p>Create your own trip as you like. Add places or remove places, Book and schedule travels. Just backpack and leave.</p>
+        </div>
+        <div class="col-sm-6 col-xs-12">
+          <img class="img-fluid" src="images/feature1.jpg" alt="">
+        </div>
+      </article>
+
+      <article class="leftImage row">
+        <div class="col-sm-6 col-xs-12">
+          <img class="img-fluid" src="images/fature2.jpg" alt="">
+        </div>
+        <div class="col-sm-6 col-xs-12">
+          <h3>Start your trip and find Travellers on the go</h3>
+          <p>Search for similar travellers in your area. Send a request, Chat and tag along.</p>
+        </div>
+      </article>
+
+    <!-- Testimonials section -->
+    </section>
+    <section id="testimonials" class="container">
+      <h2 class="testimonials-heading">Testimonials</h2>
+      <div id="testimonials" class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+            <div class="card h-100">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              </div>
+            </div>
+         </div>
+        <div class="col">
+          <div class="card h-100">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+              </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+              </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="download" class="container mb-5">
+      <article class="row">
+        <div class="col-2"></div>
+        <div class="col-sm-4 col-xs-12" class="download" id="downloadContentWrapper">
+          <h3>Adventure in your Pocket</h3>
+          <p>Travel Plans always in your Pocket. Start your amazing adventures with the all new Trippr App. </p>
+          <img class="downloadimg img-fluid" src="images/download2.jpg" alt="Play store Download Image">
+          <img class="downloadimg img-fluid" src="images/download3.jpg" alt="App Store Download Image">
+        </div>
+        <div class="col-sm-3 col-xs-12"><img class="img-fluid" src="images/download1.jpg" alt=""></div>
+      </article>
+        <div class="col-3"></div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <h3 class="footer-heading col-md-2">Trippr.</h3>
+      <div class="col-md-1"></div>
+      <div class="container col-md-2 mt-5">
+        <h4>Features</h4>
+        <ul class="list-unstyled">
+          <a href="#">Customise</a><br>
+          <a href="#">Co Travel</a><br>
+        </ul>
+      </div>
+      <div  class="container col-md-2 mt-5">
+        <h4>About</h4>
+        <ul class="list-unstyled">
+          <a href="#">The Company</a><br>
+          <a href="#">The Team</a>
+        </ul>
+      </div>
+      <div class="container col-md-2 mt-5">
+        <h4>Contact Us</h4>
+        <ul class="list-unstyled">
+          <a href="#">Customise</a><br>
+          <a href="#">Co Travel</a><br>
+        </ul>
+      </div>
+      <div class="container col-md-2 mt-5">
+        <h4>Follow us on</h4>
+        <ul class="list-unstyled icons">
+          <a href="#"><i class="fa-brands fa-facebook-f me-3"></i></a><br>
+          <a href="#"><i class="fa-brands fa-instagram me-3"></i></a><br>
+          <a href="#"><i class="fa-brands fa-twitter"></i></a><br>
+        </ul>
+      </div>
+    </footer>
+
+    <!-- Modal Popup -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body"></div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+        </div>
+      </div>
+  </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  </body>
+</html>

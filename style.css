@@ -1,0 +1,128 @@
+h1, h2, h3, h4{
+    font-family: 'Montserrat';
+}
+
+header{
+    background-image: url("images/header1.jpg");
+    height: 100vh;
+    background-size: cover;
+}
+
+h1{
+    text-align: center;
+    background-color: #33333393;
+    color: white;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 250px;
+    padding: 50px;
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 60px;
+}
+
+.highlight{
+    color: #FF585B;
+}
+
+h2{
+    font-size: 46px;
+    text-align: center;
+    margin-top:50px;
+    font-weight: 600;
+}
+
+.leftImage div h3{
+    font-weight: bold;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.leftImage div p{
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.leftImage img{
+    width: 100%;
+}
+
+.leftImage{
+    align-items: center;
+}
+
+.rightImage div h3{
+    font-weight: bold;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.rightImage div p{
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.rightImage img{
+    width: 100%;
+}
+
+.rightImage{
+    align-items: center;
+}
+
+.downloadimg{
+    border-radius: 10px 10px;
+}
+
+#testimonials {
+    background-color: #252E46;
+    padding: 50px;
+}
+
+.testimonials-heading{
+    color: white;
+}
+
+/* download styles */
+#downloadContentWrapper{
+    margin-top: 100px;
+}
+
+@media only screen and (max-width: 600px) {
+    h1{
+        font-size: 16px;
+    }
+}
+
+footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer a{
+    color: inherit;
+    text-decoration: none;
+    
+}
+
+footer a:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.footer-heading{
+    margin-left: 50px;
+    font-weight: 100;
+}
+
+.icons{
+    display: flex;
+    align-items: center;
+
+}
+
