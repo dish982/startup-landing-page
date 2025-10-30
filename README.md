@@ -1,6 +1,6 @@
 # Trippr - Marketing Page Replica
 
-A responsive **landing page** built using **HTML, CSS, and Bootstrap**, inspired by the Behance project “[Marketing Page for Trippr App](https://www.behance.net/gallery/89783967/Marketing-Page-for-Trippr-App)”.
+A responsive **landing page** built using **HTML, CSS, and Bootstrap**, inspired by the Behance project [Marketing Page for Trippr App](https://www.behance.net/gallery/89783967/Marketing-Page-for-Trippr-App).
 
 ## Tech Stack
 - **HTML5**
@@ -40,4 +40,5 @@ All design credit goes to the original creator.
 ## Author
 
 Made with ❤️ by [Disha](https://github.com/dish982)
+
 
